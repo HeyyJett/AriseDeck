@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.arisedeck.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/challengeFragment"
+        android:name="com.example.arisedeck.ChallengeFragment"
+        android:label="fragment_challenge"
+        tools:layout="@layout/fragment_challenge" />
+    <fragment
+        android:id="@+id/socialFragment"
+        android:name="com.example.arisedeck.SocialFragment"
+        android:label="fragment_social"
+        tools:layout="@layout/fragment_social" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.arisedeck.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>

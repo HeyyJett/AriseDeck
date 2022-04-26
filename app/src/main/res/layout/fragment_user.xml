@@ -4,78 +4,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileScreen">
+    tools:context=".UserFragment"
+    >
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="413dp"
-        android:layout_height="222dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#303030">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:padding="20dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
 
         <TextView
-            android:id="@+id/nameAndLast"
+            android:id="@+id/fullname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cristopher Herrera"
-            android:textAlignment="center" />
+            android:text="Fullname"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            />
 
         <TextView
             android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="crish24"
-            android:textAlignment="center" />
+            android:text="username"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="15dp"/>
 
-        <Button
-            android:id="@+id/button"
+        <TextView
+            android:id="@+id/rank"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:background="#6293C6 "
             android:gravity="center"
-            android:text="Rank" />
+            android:clickable="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:text="10"
+            android:padding="5dp"
+            android:layout_margin="10dp"/>
 
         <ProgressBar
-            android:id="@+id/progressBar2"
+            android:id="@+id/xpb"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:padding="10dp"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="405dp"
+        android:layout_width="0dp"
+        android:layout_height="440dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:background="#6293C6">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/myProfile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="My Profile" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Settings" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Help" />
+            android:text="Update Profile"
+            android:backgroundTint="#303030" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

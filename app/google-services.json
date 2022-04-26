@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "493372413860",
+    "project_id": "arisedeck",
+    "storage_bucket": "arisedeck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493372413860:android:7e72d34b0ad5d732425331",
+        "android_client_info": {
+          "package_name": "com.example.arisedeck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493372413860-n2q4mqdf1kgfcn8c9o9luuimf5g6muhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfCZYvlFroKjJn2_nj_H4probYzbOEEYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493372413860-n2q4mqdf1kgfcn8c9o9luuimf5g6muhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

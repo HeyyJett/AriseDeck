@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.arisedeck">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,16 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AriseDeck">
         <activity
-            android:name=".Social"
+            android:name=".CreateAccount"
             android:exported="false" />
         <activity
-            android:name=".challenges"
-            android:exported="false" />
-        <activity
-            android:name=".Status"
-            android:exported="false" />
-        <activity
-            android:name=".ProfileScreen"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
